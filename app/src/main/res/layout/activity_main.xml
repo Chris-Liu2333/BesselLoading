@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mouse.cookie.besselloading.MainActivity">
+
+    <com.mouse.cookie.besselloadinglib.BesselLoading
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:duration="1800"
+        custom:circlecolor="#00aadd"
+        custom:radius="12dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
